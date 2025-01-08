@@ -39,13 +39,11 @@ const adminSchema = new mongoose.Schema({
         type: Boolean,
         default: false  
     },
-    youtube:String,
     facebook:String,
     twitter:String,
     instagram:String,
     linkedin:String,
     whatsapp:String,
-    address:String,
     username:String,
     skills:String,
     bio:String, 
